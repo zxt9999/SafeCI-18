@@ -4,7 +4,8 @@ SafeCI-18 is the first large-scale multimodal safety benchmark systematically ta
 <p align="center">
   <img src="/assets/figure1.png" width="50%" alt="SafeCI-18 Scenarios Taxonomy"/>
 </p>
+
 ## 📂 Dataset Examples
 <p align="center">
-  <img src="/assets/figure3.png" width="50%" alt="SafeCI-18 Scenarios Taxonomy"/>
+  <img src="/assets/figure3.png" width="100%" alt="SafeCI-18 Scenarios Taxonomy"/>
 </p>
