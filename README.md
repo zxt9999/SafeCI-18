@@ -10,7 +10,7 @@ SafeCI-18 is the first large-scale multimodal safety benchmark systematically ta
 The dataset is constructed via a standardized three-stage pipeline:
 
 <p align="center">
-  <img src="figure2.png" width="100%" alt="Pipeline Overview"/>
+  <img src="/assets/figure2.png" width="100%" alt="Pipeline Overview"/>
 </p>
 
 - **Dual-Source Collection**: Blends real-world photography with photorealistic diffusion synthesis across 18 critical scenarios.
@@ -19,5 +19,5 @@ The dataset is constructed via a standardized three-stage pipeline:
 
 ## 📂 Dataset Examples
 <p align="center">
-  <img src="/assets/figure3.png" width="100%" alt="SafeCI-18 Scenarios Taxonomy"/>
+  <img src="/assets/figure3.png" width="100%" alt="Dataset Examples"/>
 </p>
