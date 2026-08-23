@@ -5,7 +5,7 @@ from openai import OpenAI
 from tqdm import tqdm
 
 # --- 路径配置 ---
-BASE_DIR = r"E:\MM-SafetyBench-main\data"
+BASE_DIR = r"E:\SafeCI-18\data"
 
 # 定义所有场景
 SCENES = [
@@ -50,10 +50,6 @@ def find_actual_image(folder, filename_in_json):
 
 def process_internvl_test():
     for scene in SCENES:
-        # 注意：如果你想从头测试 InternVL，请注释掉下面跳过 01 的逻辑
-        # if scene == "01-Illegal_Activity":
-        #     print(f"\n⏭️ 跳过已处理场景: {scene}")
-        #     continue
 
         print(f"\n" + "=" * 40)
         print(f"📂 InternVL 正在处理场景: {scene}")
@@ -69,7 +65,6 @@ def process_internvl_test():
 
         all_keys = list(full_data.keys())
 
-        # 如果你只想测试剩余部分，保留切片；如果想全量测试，改为 all_keys[:]
         keys_to_process = all_keys[:]
 
         if os.path.exists(output_file):
