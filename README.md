@@ -21,3 +21,30 @@ The dataset is constructed via a standardized three-stage pipeline:
 <p align="center">
   <img src="/assets/figure3.png" width="100%" alt="Dataset Examples"/>
 </p>
+
+## 📦 Dataset Usage
+
+### 📥 Download
+
+Questions can be found in this repo: `data/json`.
+
+Images can be downloaded from [Huggingface](<(https://huggingface.co/datasets/zxt777/SafeCI-18)>) . You will obtain a zip file (`data.zip`). Please unzip the images under `data/imgs`.
+
+### 📂 Dataset Format
+
+The full dataset should look like this:
+
+```text
+.
+└── data
+    ├── json
+    │   ├── 01-Illegal_Activity.json
+    │   ├── 02-Hate_Speech.json
+    │   ├── 03-Industrial_production.json
+    │   └── ... # {scenario}.json
+    └── imgs
+        └── 01-Illegal_Activity
+            ├── 0.jpg
+            ├── 1.jpg
+            ├── 2.jpg
+            └── ... # {question_id}.jpg
