@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ [ICDM 2026]SafeCI-18: A Benchmark for Multimodal Large Language Model Safety Evaluation in Critical Infrastructure Scenarios
+# [ICDM 2026]SafeCI-18: A Benchmark for Multimodal Large Language Model Safety Evaluation in Critical Infrastructure Scenarios
 
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-SafeCI--18-yellow)](https://huggingface.co/datasets/zxt777/SafeCI-18)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
