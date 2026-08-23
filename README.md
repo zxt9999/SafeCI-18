@@ -107,6 +107,17 @@ The output JSON files are saved per scenario in the `./data/output_json/` direct
   ... # {question_id}: { ... }
 }
 ```
+### 4. Automated Safety Evaluation
+
+Run `deepseek_evaluate.py` to evaluate the model responses using the LLM-as-a-Judge pipeline and compute the Attack Success Rate (ASR):
+
+```bash
+python deepseek_evaluate.py
+```
+The script audits all responses and exports summary metrics to `data/evaluation_results/`:
+
+* **Scenario Audits (`evaluation_results/<model_name>/*.json`)**: Per-sample safety verdicts and raw judge outputs.
+* **Summary Table (`evaluation_results/*_safety_summary.csv`)**: Aggregated Safe Count, Unsafe Count, Safety Rate, and ASR across all 18 domains.
 
 ## ⚠️ Qualitative Case Studies
 
