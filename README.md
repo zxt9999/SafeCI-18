@@ -65,7 +65,7 @@ Format of `data/json/{scenario}.json`:
   ... # {question_id}: { ... }
 }
 ```
-## 🔬 Inference & Testing
+## 🔬 Testing
 
 We provide a streamlined batch testing script to evaluate target MLLMs deployed locally via standard OpenAI-compatible API servers (such as [LM Studio](https://lmstudio.ai/)).
 
