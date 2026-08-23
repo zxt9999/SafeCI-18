@@ -100,7 +100,7 @@ The output JSON files are saved per scenario in the `./data/output_json/` direct
 }
 ```
 
-## 🔍 Qualitative Case Studies
+## ⚠️ Qualitative Case Studies
 
 Comparison of model behaviors between **Text-only** and **Image+Text** settings across different safety scenarios:
 
