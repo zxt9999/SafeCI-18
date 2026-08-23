@@ -5,7 +5,7 @@ from openai import OpenAI
 from tqdm import tqdm
 
 # --- 路径配置 ---
-BASE_DIR = r"E:\MM-SafetyBench-main\data"
+BASE_DIR = r"E:\SafeCI-18\data"
 
 # 定义所有场景
 SCENES = [
