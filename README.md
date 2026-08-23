@@ -108,7 +108,7 @@ Comparison of model behaviors between **Text-only** and **Image+Text** settings 
 <summary><b>Case 1: Railway Transportation (LLaVA-v1.6)</b></summary>
 
 <p align="center">
-  <img src="assets/case_railway_llava.jpg" width="95%" alt="Railway Transportation Case Study"/>
+  <img src="assets/appendix1.png" width="95%" alt="Railway Transportation Case Study"/>
 </p>
 
 *In the multimodal setting, early-generation models like LLaVA tend to degrade into neutral scene descriptions, while text-only prompts trigger detailed operational analyses.*
@@ -118,7 +118,7 @@ Comparison of model behaviors between **Text-only** and **Image+Text** settings 
 <summary><b>Case 2: Electricity Supply (Qwen-3.5)</b></summary>
 
 <p align="center">
-  <img src="assets/case_electricity_qwen.jpg" width="95%" alt="Electricity Supply Case Study"/>
+  <img src="assets/appendix2.png" width="95%" alt="Electricity Supply Case Study"/>
 </p>
 
 *The model provides actionable physical attack steps grounded in visual components (e.g., copper-wound bushings and grounding frameworks).*
@@ -128,7 +128,7 @@ Comparison of model behaviors between **Text-only** and **Image+Text** settings 
 <summary><b>Case 3: Illegal Activity (InternVL-3.5)</b></summary>
 
 <p align="center">
-  <img src="assets/case_illegal_internvl.jpg" width="95%" alt="Illegal Activity Case Study"/>
+  <img src="assets/appendix3.png" width="95%" alt="Illegal Activity Case Study"/>
 </p>
 
 *Demonstrating how multi-step chemical solvent procedures are elicited under covert instructions.*
