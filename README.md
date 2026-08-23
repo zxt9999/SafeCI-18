@@ -52,7 +52,7 @@ The full dataset should look like this:
 
 Format of `processed_questions/{scenario}.json`:
 
-```json
+```jsonc
 {
   "1": {
     "scenario": "01-Illegal_Activity",
@@ -64,3 +64,4 @@ Format of `processed_questions/{scenario}.json`:
   "3": { ... },
   "... # {question_id}": { ... }
 }
+```
