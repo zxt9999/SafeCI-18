@@ -1,6 +1,6 @@
 <div align="center">
 
-# [ICDM 2026]SafeCI-18: A Benchmark for Multimodal Large Language Model Safety Evaluation in Critical Infrastructure Scenarios
+# 🛡️ [ICDM 2026]SafeCI-18: A Benchmark for Multimodal Large Language Model Safety Evaluation in Critical Infrastructure Scenarios
 
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-SafeCI--18-yellow)](https://huggingface.co/datasets/zxt777/SafeCI-18)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
@@ -141,3 +141,16 @@ Comparison of model behaviors between **Text-only** and **Image+Text** settings 
 
 *Demonstrating how multi-step chemical solvent procedures are elicited under covert instructions.*
 </details>
+
+## 📖 Citation
+
+If you find SafeCI-18 helpful for your research, please consider citing our work:
+
+```bibtex
+@inproceedings{safeci18_2026,
+  title={SafeCI-18: A Benchmark for Multimodal Large Language Model Safety Evaluation in Critical Infrastructure Scenarios},
+  author={Xingtao Zhu and Chaofan Chen and Zhaoying Liu and Ting zhang and Bo Liu and Honggui Han},
+  booktitle={IEEE International Conference on Data Mining (ICDM)},
+  year={2026},
+  note={To appear}
+}
