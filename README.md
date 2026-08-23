@@ -17,7 +17,7 @@ The dataset is constructed via a standardized three-stage pipeline:
 - **Multi-Model Generation**: Employs MLLMs (Gemini, Qwen-VL, GPT) guided by domain security rules to synthesize stealthy technical queries.
 - **LLM-Based Quality Control**: Uses heterogeneous LLMs (Gemma, DeepSeek, MiniMax) to filter low-quality samples and encapsulate high-scoring pairs into structured JSON.
 
-## 📂 Dataset Examples
+## 💾 Dataset Examples
 <p align="center">
   <img src="/assets/figure3.png" width="100%" alt="Dataset Examples"/>
 </p>
@@ -28,7 +28,7 @@ The dataset is constructed via a standardized three-stage pipeline:
 
 Questions can be found in this repo: `data/json`.
 
-Images can be downloaded from [Huggingface](<(https://huggingface.co/datasets/zxt777/SafeCI-18)>) . You will obtain a zip file (`data.zip`). Please unzip the images under `data/imgs`.
+Images can be downloaded from [Hugging Face](https://huggingface.co/datasets/zxt777/SafeCI-18). You will obtain a zip file (`data.zip`). Please unzip the images under `data/imgs`.
 
 ### 📂 Dataset Format
 
