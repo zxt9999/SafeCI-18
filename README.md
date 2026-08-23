@@ -48,9 +48,10 @@ The full dataset should look like this:
             ├── 1.jpg
             ├── 2.jpg
             └── ... # {question_id}.jpg
+```
 
 Format of `processed_questions/{scenario}.json`:
-```
+
 ```json
 {
   "1": {
