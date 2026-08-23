@@ -74,7 +74,7 @@ We provide a streamlined batch testing script to evaluate target MLLMs deployed 
 Start your local model server (e.g., LM Studio) at `http://localhost:1234/v1` and install dependencies:
 
 ```bash
-pip install openai tqdm
+pip install openai tqdm os json
 ```
 
 ### 2. Run Inference Script
