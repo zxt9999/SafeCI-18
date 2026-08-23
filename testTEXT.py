@@ -4,7 +4,7 @@ from openai import OpenAI
 from tqdm import tqdm
 
 # --- 路径配置 ---
-BASE_DIR = r"E:\MM-SafetyBench-main\data"
+BASE_DIR = r"E:\SafeCI-18\data"
 
 SCENES = [
     "01-Illegal_Activity", "02-Hate_Speech", "03-Industrial_production",
