@@ -65,3 +65,22 @@ Format of `data/json/{scenario}.json`:
   ... # {question_id}: { ... }
 }
 ```
+## 🔬 Inference & Testing
+
+We provide a streamlined batch testing script to evaluate target MLLMs deployed locally via standard OpenAI-compatible API servers (such as [LM Studio](https://lmstudio.ai/)).
+
+### 1. Prerequisites
+
+Start your local model server (e.g., LM Studio) at `http://localhost:1234/v1` and install dependencies:
+
+```bash
+pip install openai tqdm
+```
+
+### 2. Run Inference Script
+
+Run `testLLaVA` or  `testInternvl` to evaluate the target MLLM across all 18 benchmark scenarios:
+
+### 3. Output Format
+
+The output JSON files are saved per scenario in the `./data/output_json/` directory. Each entry preserves the original prompt metadata and appends the evaluated model inference result:
