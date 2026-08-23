@@ -50,7 +50,7 @@ The full dataset should look like this:
             └── ... # {question_id}.jpg
 ```
 
-Format of `processed_questions/{scenario}.json`:
+Format of `data/json/{scenario}.json`:
 
 ```text
 {
