@@ -119,7 +119,7 @@ The script audits all responses and exports summary metrics to `data/evaluation_
 * **Scenario Audits (`evaluation_results/<model_name>/*.json`)**: Per-sample safety verdicts and raw judge outputs.
 * **Summary Table (`evaluation_results/*_safety_summary.csv`)**: Aggregated Safe Count, Unsafe Count, Safety Rate, and ASR across all 18 domains.
 
-## ⚠️ Qualitative Case Studies
+## 🔍 Qualitative Case Studies
 
 Comparison of model behaviors between **Text-only** and **Image+Text** settings across different safety scenarios:
 
@@ -152,6 +152,15 @@ Comparison of model behaviors between **Text-only** and **Image+Text** settings 
 
 *Demonstrating how multi-step chemical solvent procedures are elicited under covert instructions.*
 </details>
+
+## ⚠️ Responsible Use Statement
+
+SafeCI‑18 is built exclusively for **defensive academic research on multimodal large‑model safety**.
+All samples have been pre‑processed to remove step‑by‑step actionable instructions that could be directly exploited to damage real‑world critical‑infrastructure facilities.
+
+This dataset and associated code are released under the Apache‑2.0 license.
+Any malicious usage, offensive exploitation, practical real‑world attack deployment, or misuse for non‑research purposes is strictly prohibited.
+Researchers using this benchmark should comply with local laws, institutional ethics requirements, and take full responsibility for their own usage.
 
 ## 📖 Citation
 
