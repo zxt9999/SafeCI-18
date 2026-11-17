@@ -43,7 +43,6 @@ Images can be downloaded from [Hugging Face](https://huggingface.co/datasets/zxt
 The full dataset should look like this:
 
 ```text
-.
 └── data
     ├── json
     │   ├── 01-Illegal_Activity.json
